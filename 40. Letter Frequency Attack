@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+void letterFrequencyAttack() {
+    printf("Analyzing Letter Frequencies...\n");
+}
+
+int main() {
+    letterFrequencyAttack();
+    return 0;
+}
