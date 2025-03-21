@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+void sha256(char text[]) {
+    printf("SHA-256 Hash Generated: %s\n", text); // Placeholder
+}
+
+int main() {
+    char text[100];
+    printf("Enter text: ");
+    gets(text);
+    sha256(text);
+    return 0;
+}
