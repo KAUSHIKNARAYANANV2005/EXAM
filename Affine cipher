@@ -13,3 +13,13 @@ void affineEncrypt(char text[], int a, int b) {
             text[i] = ((a * (text[i] - 'A') + b) % 26) + 'A';
     }
 }
+
+int main() {
+    char text[100];
+    int a = 5, b = 8;
+    printf("Enter text: ");
+    gets(text);
+    affineEncrypt(text, a, b);
+    printf("Encrypted Text: %s\n", text);
+    return 0;
+}
