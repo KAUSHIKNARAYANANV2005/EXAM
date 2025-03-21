@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+void aesEncrypt(char text[]) {
+    printf("AES Encryption Applied: %s\n", text); // Placeholder
+}
+
+int main() {
+    char text[100];
+    printf("Enter message: ");
+    gets(text);
+    aesEncrypt(text);
+    return 0;
+}
