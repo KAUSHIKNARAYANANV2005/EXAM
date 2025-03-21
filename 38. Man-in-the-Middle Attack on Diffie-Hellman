@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+void mitmAttack() {
+    printf("Simulating Man-in-the-Middle attack on Diffie-Hellman...\n");
+}
+
+int main() {
+    mitmAttack();
+    return 0;
+}
