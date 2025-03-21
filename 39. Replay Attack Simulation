@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+void replayAttack() {
+    printf("Simulating Replay Attack...\n");
+}
+
+int main() {
+    replayAttack();
+    return 0;
+}
