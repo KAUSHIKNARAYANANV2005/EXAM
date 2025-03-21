@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+void cbcEncrypt(char text[]) {
+    printf("CBC Encrypted: %s\n", text); // Placeholder
+}
+
+int main() {
+    char text[100];
+    printf("Enter text: ");
+    gets(text);
+    cbcEncrypt(text);
+    return 0;
+}
