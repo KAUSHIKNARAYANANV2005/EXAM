@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+void dictionaryAttack() {
+    printf("Attempting Dictionary Attack on hash...\n");
+}
+
+int main() {
+    dictionaryAttack();
+    return 0;
+}
