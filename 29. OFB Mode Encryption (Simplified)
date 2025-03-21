@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+void ofbEncrypt(char text[]) {
+    printf("OFB Encrypted: %s\n", text); // Placeholder
+}
+
+int main() {
+    char text[100];
+    printf("Enter text: ");
+    gets(text);
+    ofbEncrypt(text);
+    return 0;
+}
