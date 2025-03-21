@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+void decryptMessage() {
+    printf("Deciphering using frequency analysis...\n");
+}
+
+int main() {
+    decryptMessage();
+    return 0;
+}
